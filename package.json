@@ -1,0 +1,31 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "description": "This is a sample app using React+Redux which actually shows a list of movie names including lazy binding of data",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev-build": "webpack -p --mode development",
+    "prod-build": "webpack -p --mode production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "history": "^4.7.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7"
+  },
+  "author": "abinthaha",
+  "license": "ISC"
+}
