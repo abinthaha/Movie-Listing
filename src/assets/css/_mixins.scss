@@ -1,0 +1,11 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+%vertical-align-center {
+  display: inline-flex;
+  align-items: center;
+}

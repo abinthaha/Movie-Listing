@@ -1,25 +1,48 @@
 import {
-	LOAD_LIST, LOAD_LIST_SUCCESS, LOAD_LIST_ERROR
+	LOAD_LIST_FINISHED, LOAD_LIST_STARTED, LOAD_LIST_ERROR, BASE_URL_JSON
 } from './constants';
 
-import page1 from '../../../../assets/json/list-data/CONTENTLISTINGPAGE-PAGE1.json';
-import page2 from '../../../../assets/json/list-data/CONTENTLISTINGPAGE-PAGE2.json';
-import page3 from '../../../../assets/json/list-data/CONTENTLISTINGPAGE-PAGE3.json';
+const pageNumberToNameArray = ["CONTENTLISTINGPAGE-PAGE1.json", "CONTENTLISTINGPAGE-PAGE2.json", "CONTENTLISTINGPAGE-PAGE3.json"]
 
-export function loadListData(text) {
+export function loadListData(pageNumber) {
+	const jsonName = pageNumberToNameArray[pageNumber];
+	return (dispatch) => {
+		dispatch(loadListDataStarted());
+		try {
+			fetch(BASE_URL_JSON + jsonName)
+				.then((res) => res.json())
+				.then((data) => {
+					dispatch(loadListDataFinished(data));
+				}).catch((err) => {
+					console.log(err);
+					dispatch(loadListDataError(err));
+				})
+		}
+		catch(err) {
+			dispatch(loadListDataError(err));
+		}
+	}
+}
+
+/** To dispatch when we start fetching the data */
+function loadListDataStarted() {
   	return {
-    	type: LOAD_LIST,
-    	data: page1
+    	type: LOAD_LIST_STARTED,
   	}
 }
-function loadListDataSuccess() {
-  	return {
-    	type: LOAD_LIST_SUCCESS,
+
+/** To dispatch when we finish fetching the data */
+function loadListDataFinished(data) {
+	return {
+    	type: LOAD_LIST_FINISHED,
+    	data
   	}
 }
 
-function loadListDataError() {
-  	return {
+/** To dispatch when cause any error in fetching the data */
+function loadListDataError(err) {
+	return {
     	type: LOAD_LIST_ERROR,
+    	err
   	}
 }

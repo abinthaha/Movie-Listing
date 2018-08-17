@@ -2,9 +2,12 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const commonPaths = require('./webpack/commonPaths');
 
 module.exports = {
-    entry: './src/index.jsx',
+    entry: {
+        app: `${commonPaths.appEntry}/index.jsx`
+    },
     mode: 'development',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -15,7 +18,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.json', '*']
     },
     plugins: [
-        new CleanWebpackPlugin('dist', {}),
+        // new CleanWebpackPlugin('dist', {}),
         new HtmlWebpackPlugin({
             template: 'public/index.html',
             inject: 'body',
@@ -30,6 +33,20 @@ module.exports = {
                 test: /\.jsx?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
+            }, {
+                test: /\.s?css$/,
+                use: [
+                    {
+                      loader: "style-loader" // creates style nodes from JS strings
+                    }, {
+                      loader: "css-loader" // translates CSS into CommonJS
+                    }, {
+                      loader: "sass-loader"
+                    }
+                ]
+            }, {
+                test: /\.(svg|png|jpeg|jpg|gif|json)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                loader: "file-loader"
             }
         ]
     },
