@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "3275eb4a0ae5133f7a5e";
+/******/ 	var hotCurrentHash = "6fcb80f9f7aa5fed83b2";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -813,6 +813,127 @@ eval("module.exports = __webpack_require__.p + \"4a624b53b35d61ad45f003d22bcd315
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"70cf10e1d93b0a925475edfb168e4394.png\";\n\n//# sourceURL=webpack:///./dist/assets/img/icons/search.png?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster sync \\.(png|jpe?g|svg)$":
+/*!*********************************************************************!*\
+  !*** ./dist/assets/img/poster sync nonrecursive \.(png|jpe?g|svg)$ ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./noPosterImg.png\": \"./dist/assets/img/poster/noPosterImg.png\",\n\t\"./poster1.jpg\": \"./dist/assets/img/poster/poster1.jpg\",\n\t\"./poster2.jpg\": \"./dist/assets/img/poster/poster2.jpg\",\n\t\"./poster3.jpg\": \"./dist/assets/img/poster/poster3.jpg\",\n\t\"./poster4.jpg\": \"./dist/assets/img/poster/poster4.jpg\",\n\t\"./poster5.jpg\": \"./dist/assets/img/poster/poster5.jpg\",\n\t\"./poster6.jpg\": \"./dist/assets/img/poster/poster6.jpg\",\n\t\"./poster7.jpg\": \"./dist/assets/img/poster/poster7.jpg\",\n\t\"./poster8.jpg\": \"./dist/assets/img/poster/poster8.jpg\",\n\t\"./poster9.jpg\": \"./dist/assets/img/poster/poster9.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./dist/assets/img/poster sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster_sync_nonrecursive_\\.(png%7Cjpe?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/noPosterImg.png":
+/*!************************************************!*\
+  !*** ./dist/assets/img/poster/noPosterImg.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"fbfa8246a2bbef13039eb65f1ec211fc.png\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/noPosterImg.png?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster1.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster1.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d5f2a7f493e94ed267d41620eef143d9.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster1.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster2.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster2.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"81ccf144677486906fcf751450652895.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster2.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster3.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster3.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"e242f0372e7bdbf2e48aa5afefc72b97.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster3.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster4.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster4.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"56f097245c605a5d312f103dedb21bcb.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster4.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster5.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster5.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5ef7f79461c7a8c0a95652b813fb4722.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster5.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster6.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster6.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"164b05a3cd770650dd30bc71f5407e99.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster6.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster7.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster7.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"23ac494a92660204d6b8acbba20aa0e9.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster7.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster8.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster8.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ef89f612f6e3d684892d6525b7957ce4.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster8.jpg?");
+
+/***/ }),
+
+/***/ "./dist/assets/img/poster/poster9.jpg":
+/*!********************************************!*\
+  !*** ./dist/assets/img/poster/poster9.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"65d6d5002a2f98860f29d3c61599c5ac.jpg\";\n\n//# sourceURL=webpack:///./dist/assets/img/poster/poster9.jpg?");
 
 /***/ }),
 
@@ -1666,7 +1787,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Heading = __webpack_require__(/*! ../../../components/Heading */ \"./src/app/components/Heading/index.jsx\");\n\nvar _Heading2 = _interopRequireDefault(_Heading);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar ListComponent = function (_Component) {\n\t_inherits(ListComponent, _Component);\n\n\tfunction ListComponent(props) {\n\t\t_classCallCheck(this, ListComponent);\n\n\t\tvar _this = _possibleConstructorReturn(this, (ListComponent.__proto__ || Object.getPrototypeOf(ListComponent)).call(this, props));\n\n\t\t_this.state = {\n\t\t\tnoPosterName: 'noPosterImg.png',\n\t\t\tmovieList: []\n\t\t};\n\t\t_this.setMovieList = _this.setMovieList.bind(_this);\n\t\t_this.errorImg = _this.errorImg.bind(_this);\n\t\treturn _this;\n\t}\n\n\t_createClass(ListComponent, [{\n\t\tkey: 'componentDidMount',\n\t\tvalue: function componentDidMount() {\n\t\t\tthis.setMovieList(this.props);\n\t\t}\n\t}, {\n\t\tkey: 'componentWillReceiveProps',\n\t\tvalue: function componentWillReceiveProps(nextProps) {\n\t\t\tthis.setMovieList(nextProps);\n\t\t}\n\t}, {\n\t\tkey: 'setMovieList',\n\t\tvalue: function setMovieList(props) {\n\t\t\tvar movieList = props.movieList;\n\n\t\t\tthis.setState(_extends({}, this.state, {\n\t\t\t\tmovieList: movieList\n\t\t\t}));\n\t\t}\n\t}, {\n\t\tkey: 'errorImg',\n\t\tvalue: function errorImg(movie) {\n\t\t\tvar _this2 = this;\n\n\t\t\tvar movieList = this.state.movieList;\n\n\t\t\tmovieList = movieList.map(function (item) {\n\t\t\t\tif (item.name === movie.name && item[\"poster-image\"] === movie[\"poster-image\"]) item[\"poster-image\"] = _this2.state.noPosterName;\n\t\t\t\treturn item;\n\t\t\t});\n\t\t\tthis.setState(_extends({}, this.state, {\n\t\t\t\tmovieList: movieList\n\t\t\t}));\n\t\t}\n\t}, {\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\tvar _this3 = this;\n\n\t\t\tvar itemListing = this.state.movieList.map(function (item, index) {\n\t\t\t\tvar basePosterImgUrl = '../../../../../Movie-Listing/assets/img/poster/';\n\t\t\t\tvar imgSrc = basePosterImgUrl + item[\"poster-image\"];\n\t\t\t\treturn _react2.default.createElement(\n\t\t\t\t\t'li',\n\t\t\t\t\t{ key: index, className: 'each-movie not-selectable' },\n\t\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t\t'span',\n\t\t\t\t\t\t{ className: 'movie-poster-wrapper not-selectable' },\n\t\t\t\t\t\t_react2.default.createElement('img', { src: imgSrc, onError: function onError(e) {\n\t\t\t\t\t\t\t\treturn _this3.errorImg(item);\n\t\t\t\t\t\t\t} })\n\t\t\t\t\t),\n\t\t\t\t\t_react2.default.createElement(_Heading2.default, {\n\t\t\t\t\t\ttitle: item.name,\n\t\t\t\t\t\tclassName: 'movie-name not-selectable',\n\t\t\t\t\t\tshouldShowTitle: true,\n\t\t\t\t\t\ttype: '5'\n\t\t\t\t\t})\n\t\t\t\t);\n\t\t\t});\n\t\t\treturn _react2.default.createElement(\n\t\t\t\t'section',\n\t\t\t\t{ className: 'movie-list-container container' },\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'ul',\n\t\t\t\t\t{ className: 'movie-list-wrapper' },\n\t\t\t\t\titemListing\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn ListComponent;\n}(_react.Component);\n\nexports.default = ListComponent;\n\n//# sourceURL=webpack:///./src/app/scenes/Listing/components/list.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Heading = __webpack_require__(/*! ../../../components/Heading */ \"./src/app/components/Heading/index.jsx\");\n\nvar _Heading2 = _interopRequireDefault(_Heading);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar posterImages = {};\n\nvar ListComponent = function (_Component) {\n\t_inherits(ListComponent, _Component);\n\n\tfunction ListComponent(props) {\n\t\t_classCallCheck(this, ListComponent);\n\n\t\tvar _this = _possibleConstructorReturn(this, (ListComponent.__proto__ || Object.getPrototypeOf(ListComponent)).call(this, props));\n\n\t\t_this.state = {\n\t\t\tnoPosterName: 'noPosterImg.png',\n\t\t\tposterImages: {},\n\t\t\tmovieList: []\n\t\t};\n\t\t_this.setMovieList = _this.setMovieList.bind(_this);\n\t\t_this.errorImg = _this.errorImg.bind(_this);\n\t\t_this.getPosterImages = _this.getPosterImages.bind(_this);\n\t\treturn _this;\n\t}\n\n\t_createClass(ListComponent, [{\n\t\tkey: 'importAll',\n\t\tvalue: function importAll(r) {\n\t\t\tvar images = {};\n\t\t\tr.keys().map(function (item, index) {\n\t\t\t\timages[item.replace('./', '')] = r(item);\n\t\t\t});\n\t\t\treturn images;;\n\t\t}\n\t}, {\n\t\tkey: 'componentDidMount',\n\t\tvalue: function componentDidMount() {\n\t\t\tthis.setMovieList(this.props);\n\t\t\tthis.getPosterImages();\n\t\t}\n\t}, {\n\t\tkey: 'getPosterImages',\n\t\tvalue: function getPosterImages() {\n\t\t\tposterImages = this.importAll(__webpack_require__(\"./dist/assets/img/poster sync \\\\.(png|jpe?g|svg)$\"));\n\t\t}\n\t}, {\n\t\tkey: 'componentWillReceiveProps',\n\t\tvalue: function componentWillReceiveProps(nextProps) {\n\t\t\tthis.setMovieList(nextProps);\n\t\t}\n\t}, {\n\t\tkey: 'setMovieList',\n\t\tvalue: function setMovieList(props) {\n\t\t\tvar movieList = props.movieList;\n\n\t\t\tthis.setState(_extends({}, this.state, {\n\t\t\t\tmovieList: movieList\n\t\t\t}));\n\t\t}\n\t}, {\n\t\tkey: 'errorImg',\n\t\tvalue: function errorImg(movie) {\n\t\t\tvar _this2 = this;\n\n\t\t\tvar movieList = this.state.movieList;\n\n\t\t\tmovieList = movieList.map(function (item) {\n\t\t\t\tif (item.name === movie.name && item[\"poster-image\"] === movie[\"poster-image\"]) item[\"poster-image\"] = _this2.state.noPosterName;\n\t\t\t\treturn item;\n\t\t\t});\n\t\t\tthis.setState(_extends({}, this.state, {\n\t\t\t\tmovieList: movieList\n\t\t\t}));\n\t\t}\n\t}, {\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\tvar _this3 = this;\n\n\t\t\tconsole.log(posterImages);\n\t\t\tvar itemListing = this.state.movieList.map(function (item, index) {\n\t\t\t\t// let basePosterImgUrl = '../../../../../Movie-Listing/assets/img/poster/';\n\t\t\t\t// let basePosterImgUrl = '../../../../../assets/img/poster/';\n\t\t\t\tvar imgSrc = posterImages[item[\"poster-image\"]];\n\t\t\t\treturn _react2.default.createElement(\n\t\t\t\t\t'li',\n\t\t\t\t\t{ key: index, className: 'each-movie not-selectable' },\n\t\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t\t'span',\n\t\t\t\t\t\t{ className: 'movie-poster-wrapper not-selectable' },\n\t\t\t\t\t\t_react2.default.createElement('img', { src: imgSrc, onError: function onError(e) {\n\t\t\t\t\t\t\t\treturn _this3.errorImg(item);\n\t\t\t\t\t\t\t} })\n\t\t\t\t\t),\n\t\t\t\t\t_react2.default.createElement(_Heading2.default, {\n\t\t\t\t\t\ttitle: item.name,\n\t\t\t\t\t\tclassName: 'movie-name not-selectable',\n\t\t\t\t\t\tshouldShowTitle: true,\n\t\t\t\t\t\ttype: '5'\n\t\t\t\t\t})\n\t\t\t\t);\n\t\t\t});\n\t\t\treturn _react2.default.createElement(\n\t\t\t\t'section',\n\t\t\t\t{ className: 'movie-list-container container' },\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'ul',\n\t\t\t\t\t{ className: 'movie-list-wrapper' },\n\t\t\t\t\titemListing\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn ListComponent;\n}(_react.Component);\n\nexports.default = ListComponent;\n\n//# sourceURL=webpack:///./src/app/scenes/Listing/components/list.jsx?");
 
 /***/ }),
 
